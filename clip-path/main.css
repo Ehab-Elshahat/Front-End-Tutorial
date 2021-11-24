@@ -1,0 +1,48 @@
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.c1 {
+  background-color: #f44336;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.c2 {
+  background-color: #3f51b5;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  z-index: 2;
+}
+.c3 {
+  background-color: #4caf50;
+  clip-path: polygon(25% 0%, 100% 50%, 0% 100%);
+  z-index: 3;
+}
+.c4 {
+  background-color: #ff9800;
+  clip-path: polygon(75% 0%, 100% 50%, 0% 100%);
+  z-index: 4;
+}
+.c5 {
+  background-color: #795548;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  z-index: 5;
+}
